@@ -1,0 +1,4 @@
+br\com\api\pharmamax\Service\PharmamaxService.class
+br\com\api\pharmamax\domain\PharmamaxDomain.class
+br\com\api\pharmamax\PharmamaxApplication.class
+br\com\api\pharmamax\Repository\PharmamaxRepository.class
