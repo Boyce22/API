@@ -8,13 +8,13 @@ A seguir estão os endpoints disponíveis neste controlador:
 
 ### Listar todos os jogadores
 
-'GET /game/player/all'
+`GET /game/player/all`
 
 Este endpoint retorna uma lista de todos os jogadores presentes no banco de dados.
 
 ### Encontrar jogador por ID
 
-'GET /game/player/find/{id}'
+`GET /game/player/find/{id}`
 
 Este endpoint retorna as informações de um jogador específico com base no ID fornecido.
 
@@ -27,14 +27,14 @@ Este endpoint permite editar as informações de um jogador específico com base
 
 ### Remover jogador
 
-'DELETE /game/player/remove/{id}'
+`DELETE /game/player/remove/{id}`
 
 
 Este endpoint permite remover um jogador específico do banco de dados com base no ID fornecido.
 
 ### Adicionar jogador
 
-'POST /game/player/add'
+`POST /game/player/add`
 
 
 Este endpoint permite adicionar um novo jogador ao jogo. As informações do jogador devem ser fornecidas no corpo da requisição como um objeto JSON.
@@ -43,10 +43,10 @@ Este endpoint permite adicionar um novo jogador ao jogo. As informações do jog
 
 ### Adicionar jogador - Requisição
 
-'POST /game/player/add'
+`POST /game/player/add`
 Content-Type: application/json
 
-'{
+`{
 "health": 100,
 "mana": 50,
 "nickname": "Player1",
@@ -55,14 +55,14 @@ Content-Type: application/json
 "damage": 10,
 "defense": 5,
 "isActive": true
-}'
+}`
 
 ### Adicionar jogador - Resposta de sucesso
 
-'HTTP/1.1 200 OK
-Content-Type: application/json'
+`HTTP/1.1 200 OK
+Content-Type: application/json`
 
-'{
+`{
 "id": 1,
 "health": 100,
 "mana": 50,
@@ -72,12 +72,12 @@ Content-Type: application/json'
 "damage": 10,
 "defense": 5,
 "isActive": true
-}'
+}`
 
 
 ### Adicionar jogador - Resposta de erro
 
-'HTTP/1.1 500 Internal Server Error'
+`HTTP/1.1 500 Internal Server Error`
 
 ## Como executar as requisições
 
