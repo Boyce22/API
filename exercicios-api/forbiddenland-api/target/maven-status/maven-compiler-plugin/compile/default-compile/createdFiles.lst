@@ -1,0 +1,5 @@
+br\com\forbidden\domain\Player.class
+br\com\forbidden\ForbiddenApplication.class
+br\com\forbidden\Repository\ForbiddenRepository.class
+br\com\forbidden\Service\ForbiddenService.class
+br\com\forbidden\Controller\ForbiddenController.class
