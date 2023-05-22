@@ -1,6 +1,6 @@
-# Controlador Forbidden
+# API Forbidden
 
-Este é o controlador REST para o jogo Forbidden Land, responsável por lidar com as requisições relacionadas aos jogadores do jogo.
+Este é o controlador REST para o jogo Forbidden Land, responsável por lidar com as requisições relacionadas aos jogadores
 
 ## Endpoints
 
