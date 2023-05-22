@@ -1,7 +1,0 @@
--------------------------------------------------------------------------------
-Test set: br.com.gamecom.forbiddenlandapi.ForbiddenlandApiApplicationTests
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.368 s <<< FAILURE! - in br.com.gamecom.forbiddenlandapi.ForbiddenlandApiApplicationTests
-br.com.gamecom.forbiddenlandapi.ForbiddenlandApiApplicationTests  Time elapsed: 0.366 s  <<< ERROR!
-java.lang.IllegalStateException: Unable to find a @SpringBootConfiguration, you need to use @ContextConfiguration or @SpringBootTest(classes=...) with your test
-
