@@ -91,6 +91,7 @@ Corpo da solicitação:
 
 
 - Para atualizar os detalhes de uma arma existente (ID da arma = 2):
+
 PUT http://localhost:8080/arsenal/game/edit/2
 
 Corpo da solicitação:
@@ -102,7 +103,7 @@ Corpo da solicitação:
 "isActive": true
 }
 
-- Para remover uma arma?
+- Para remover uma arma
 
 Delete http://localhost:8080/arsenal/game/remove/{weaponId}
 
