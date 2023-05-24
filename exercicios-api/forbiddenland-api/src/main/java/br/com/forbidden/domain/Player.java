@@ -13,28 +13,28 @@ public class Player {
 	@Column(name = "pla_cd_id", nullable = false, unique = true)
 	private Integer id;
 
-	@Column(name = "pla_tx_health", nullable = false)
+	@Column(name = "pla_int_health", nullable = false)
 	private Integer health;
 
-	@Column(name = "pla_tx_mana", nullable = false)
+	@Column(name = "pla_int_mana", nullable = false)
 	private Integer mana;
 
 	@Column(name = "pla_tx_nickname", nullable = false)
 	private String nickname;
 
-	@Column(name = "pla_tx_level", nullable = false)
+	@Column(name = "pla_int_level", nullable = false)
 	private Integer level;
 
 	@Column(name = "pla_tx_class", nullable = false)
 	private String classe;
 
-	@Column(name = "pla_tx_damage", nullable = false)
+	@Column(name = "pla_int_damage", nullable = false)
 	private Integer damage;
 
-	@Column(name = "pla_tx_defense", nullable = false)
+	@Column(name = "pla_int_defense", nullable = false)
 	private Integer defense;
 
-	@Column(name = "pla_tx_active", nullable = false)
+	@Column(name = "pla_bl_active", nullable = false)
 	private Boolean isActive;
 
 	public Player(Integer id, Integer health, Integer mana, String nickname, Integer level, String classe,
