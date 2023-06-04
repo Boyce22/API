@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>aulaum</groupId>
 	<artifactId>proejto.calculadora</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>projeto.calculadora</name>
 	<description>Calculadora básica</description>
 	<properties>
